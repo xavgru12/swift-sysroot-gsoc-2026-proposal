@@ -33,3 +33,26 @@ The approach is to generalize the mechanism by splitting out the Swift core libr
 
 - [Max Desiatov](https://github.com/MaxDesiatov)
 
+
+**Timeline**
+- General thoughts about [Google's Timeline](https://developers.google.com/open-source/gsoc/timeline)
+For a standard 12 week coding project, which 75% of the projects are, it is targeted to be 175 hours long.
+
+Start date: May 25  
+Midterm evaluation deadline: July 10  
+End date: August 24  
+
+The timeline is set out, so a major milestone is delivered latest July 10.
+
+Major Milestones:
+- define design of new build products and its contents, define what is wasm specific to be passed through and what is generally needed for cross compilation
+- split out build products and make wasm use it, delete unused wasm parts that are now generalized
+- introduce experimental flag passing sysroot, test with wasm by explicitly setting sysroot in new build product, instead of passing through implicitly
+- establish mechanism to execute entire swift compiler test suite on freshly cross-compiled swift
+
+midterm July 10
+
+- define host and target triples for cross compilation to be supported and tested on
+- for each Swift core library in the new build products, cross compile it to another Linux distro passing sysroot, test on target system ensuring tests pass
+- test with more target triples
+
