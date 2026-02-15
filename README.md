@@ -1,7 +1,7 @@
 # Sysroot Support in Swift’s build-script
 
 ## Review
-For review purposes on Github, it is as easy as opening the markdown on the website. The build process ensures the produced pdf looks/is formatted like the markdown on Github.
+For review purposes on Github, it is as easy as opening the markdown file (proposal.md) on the website. The build process ensures the produced pdf looks/is formatted like the markdown on Github.
 
 ## Build Setup
 - Install Pandoc
