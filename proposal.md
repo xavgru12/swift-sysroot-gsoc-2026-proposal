@@ -17,7 +17,7 @@ provides the path to the sysroot of the target triple. This enables
 [cross-compiling](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0387-cross-compilation-destinations.md)
 to other sysroots, meaning the host triple is different to the target triple.
 [Wasm](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasmswiftsdk.py)
-already uses a [sysroot](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasmswiftsdk.py).
+already uses a [sysroot](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasisysroot.py).
 The approach is to generalize the mechanism by splitting out the Swift core library builds into separate build products to be used for cross-compiling.
 
 
