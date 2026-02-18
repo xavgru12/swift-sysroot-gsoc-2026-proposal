@@ -10,6 +10,7 @@
 - Experience with the Swift compiler build system is a plus
 
 **Motivation**
+
 The common approach to building Swift for Linux is native compilation, where
 the host and target are identical. Cross-compilation lets the host stay the
 same while using different sysroots for multiple target distributions, enabling
