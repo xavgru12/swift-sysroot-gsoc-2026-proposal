@@ -19,9 +19,9 @@ compiler, Swift runtime libraries, and target system interface, improving
 modularity and design. It also allows targeting environments where native
 builds are impractical, such as minimal, constrained, older, or specialized
 distributions. This project builds on existing Wasm cross-compilation
-mechanisms and generalizes them by adding sysroot support in `build-script`,
-enabling support for more targets and strengthening the extensibility and
-sustainability of Swift’s build infrastructure.
+mechanisms and generalizing sysroot support in `build-script` in new build
+products, enabling support for more targets and strengthening the extensibility
+and sustainability of Swift’s build infrastructure.
 
 **Description**
 
