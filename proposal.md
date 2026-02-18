@@ -9,6 +9,18 @@
 - Basic understanding of CMake, Python 
 - Experience with the Swift compiler build system is a plus
 
+**Motivation**
+The common approach to building Swift for Linux is native compilation, where
+the host and target are identical. Cross-compilation lets the host stay the
+same while using different sysroots for multiple target distributions, enabling
+builds without leaving the host system. This clearly separates the host
+compiler, Swift runtime libraries, and target system interface, improving
+modularity and design. It also allows targeting environments where native
+builds are impractical, such as minimal, constrained, older, or specialized
+distributions. This project builds on existing Wasm cross-compilation
+mechanisms and generalizes them by adding sysroot support in build-script,
+enabling support for more targets and strengthening the extensibility and
+sustainability of Swift’s build infrastructure.
 
 **Description**
 
