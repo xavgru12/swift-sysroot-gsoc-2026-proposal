@@ -20,7 +20,7 @@ modularity and design. It also allows targeting environments where native
 builds are impractical, such as minimal, constrained, older, or specialized
 distributions. This project builds on existing Wasm cross-compilation
 mechanisms and generalizes sysroot support in `build-script` by adding new
-build products. It enables support for more targets and strengthening the
+build products. It enables support for more targets and strengthens the
 extensibility and sustainability of Swift’s build infrastructure.
 
 **Description**
