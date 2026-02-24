@@ -1,14 +1,5 @@
 # Sysroot Support in Swift’s build-script
 
-**Project size**: 160 hours
-
-**Estimated difficulty**: Intermediate
-
-**Recommended skills**
-
-- Basic understanding of CMake, Python 
-- Experience with the Swift compiler build system is a plus
-
 **Motivation**
 
 The common approach to building Swift for Linux is native compilation, where
