@@ -1,5 +1,18 @@
 # Sysroot Support in Swift’s build-script
 
+**Personal**
+
+Name: Xaver Gruber  
+Email: xaver.max.gruber@gmail.com  
+Github: https://github.com/xavgru12  
+Linkedin: linkedin.com/in/ingenieur-xaver-gruber-639a4b18a  
+Degree Program: Final year of MSc in Computer Science at IU  
+Job: Embedded Software Engineer - almost 5 years working experience  
+Country: Switzerland  
+ 
+I am experienced in developing and maintaining build systems with CMake and Python.
+I have been following the Swift project closely, with a particular interest in cross-compiling Swift where I have built [good connections](https://xtremekforever.substack.com/p/introduction-to-building-swift-for) within the community.
+
 **Motivation**
 
 The common approach to building Swift for Linux is native compilation, where
