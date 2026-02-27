@@ -50,28 +50,22 @@ The approach is to generalize the mechanism by splitting out the Swift core libr
 
 - [Max Desiatov](https://github.com/MaxDesiatov)
 
+<div style="page-break-after: always;"></div>
 
 **Timeline**
-
-*General thoughts about [Google's Timeline](https://developers.google.com/open-source/gsoc/timeline)*
-
-For a standard 12 week coding project, which 75% of the projects are, it is targeted to be 175 hours long.
 
 Start date: May 25  
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-The timeline is set out, so a major milestone is delivered latest July 10.
-
-*Major Milestones*
-- define design of new build products and its contents, define what is wasm specific to be passed through and what is generally needed for cross compilation
-- split out build products and make wasm use it, delete unused wasm parts that are now generalized
-- introduce experimental flag passing sysroot, test with wasm by explicitly setting sysroot in new build product, instead of passing through implicitly
-- establish mechanism to execute entire swift compiler test suite on freshly cross-compiled swift
-
-midterm July 10
-
-- define host and target triples for cross compilation to be supported and tested on
-- for each Swift core library in the new build products, cross compile it to another Linux distro passing sysroot, test on target system ensuring tests pass
-- test with more target triples
+- week 1: split out stdlib build from wasmswiftsdk into a separate new build product
+- week 2: introduce experimental flag passing sysroot, test with wasm by explicitly setting sysroot in new build product instead of passing through implicitly
+- week 3: modify wasm build to use toolchain file
+- week 4-5: add build product cross compilation, which uses stdlib build product to cross compile
+- week 6: documentation for midterm
+- week 7-8: establish and run compiler tests from run-test using option run-target.
+- week 9: split out build product foundation from wasmswiftsdk
+- week 10: split out xctest and swift testing from wasmswiftsdk
+- week 11: add dispatch
+- week 12: documentation
 
