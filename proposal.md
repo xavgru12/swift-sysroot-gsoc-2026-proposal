@@ -7,7 +7,7 @@ Email: xaver.max.gruber@gmail.com
 Github: https://github.com/xavgru12  
 Linkedin: linkedin.com/in/ingenieur-xaver-gruber-639a4b18a  
 Degree Program: Final year of MSc in Computer Science at IU  
-Job: Embedded Software Engineer - almost 5 years working experience  
+Job: Embedded Software Engineer  
 Country: Switzerland  
  
 I am experienced in developing and maintaining build systems with CMake and Python.
