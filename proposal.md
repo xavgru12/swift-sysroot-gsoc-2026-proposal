@@ -66,6 +66,6 @@ End date: August 24
 - week 7-8: establish and run compiler tests from` run-test` using option` run-target`
 - week 9: integrate` cross-compile` product call in` build-script` 
 - week 10: split out foundation build from` wasmswiftsdk` into a separate new build product to be consumed by both` cross-compile` product and` wasmswiftsdk`
-- week 11: split out xctest and swift testing builds from` wasmswiftsdk` into a separate new build product to be consumed by both` cross-compile` product and` wasmswiftsdk`
+- week 11: split out xctest and swift testing builds from` wasmswiftsdk` into separate new build products to be consumed by both` cross-compile` product and` wasmswiftsdk`
 - week 12: documentation
 
