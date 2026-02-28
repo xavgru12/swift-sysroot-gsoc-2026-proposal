@@ -58,14 +58,14 @@ Start date: May 25
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-- week 1: split out stdlib build from wasmswiftsdk into a separate new build product
+- week 1: split out stdlib build from` wasmswiftsdk` into a separate new build product
 - week 2: introduce experimental flag passing sysroot, test with wasm by explicitly setting sysroot in new build product instead of passing through implicitly
 - week 3: modify wasm build to use toolchain file
 - week 4-5: add build product cross compilation, which uses stdlib build product to cross compile
 - week 6: documentation for midterm
-- week 7-8: establish and run compiler tests from run-test using option run-target.
-- week 9: split out build product foundation from wasmswiftsdk
-- week 10: split out xctest and swift testing from wasmswiftsdk
-- week 11: add dispatch
+- week 7-8: establish and run compiler tests from` run-test` using option` run-target`
+- week 9: integrate cross-compile product call in` build-script` 
+- week 10: split out build product foundation from wasmswiftsdk
+- week 11: split out xctest and swift testing from wasmswiftsdk
 - week 12: documentation
 
