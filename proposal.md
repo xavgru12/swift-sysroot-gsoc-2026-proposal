@@ -58,14 +58,15 @@ Start date: May 25
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-- week 1: split out stdlib build from` wasmswiftsdk` into a separate new build product to be consumed by` wasmswiftsdk`
-- week 2: introduce experimental flag passing sysroot tested with ` wasmswiftsdk`
-- week 3: modify` wasmswiftsdk` to use CMake's toolchain file
-- week 4-5: add new` cross-compile` build product, which consumes the new stdlib build product
-- week 6: documentation for midterm
-- week 7-8: establish and run compiler tests from` run-test` using option` run-target`
-- week 9: integrate` cross-compile` product call in` build-script` 
-- week 10: split out foundation build from` wasmswiftsdk` into a separate new build product to be consumed by both` cross-compile` product and` wasmswiftsdk`
-- week 11: split out xctest and swift testing builds from` wasmswiftsdk` into separate new build products to be consumed by both` cross-compile` product and` wasmswiftsdk`
-- week 12: documentation
+- week 1: rename` wasmswiftsdk` to `swiftsdk` and add platform selection to constructor
+- week 2: introduce experimental flag passing sysroot to ` swiftsdk`
+- week 3: modify` swiftsdk` to use CMake's toolchain file and possibly more changes before splitting out products
+- week 4: generalize` wasmstdlib` to` stdlib` by adding the possibility for platform specific options
+- week 5: invoke` stdlib` build from swiftsdk (not only cmake install)
+- week 6: documentation for midterm: write a blog post on Swift Forums and start writing documentation in a new file under docs/LinuxCrossCompile.md
+- week 7: add Linux platform to` swiftsdk` and add its platform specific options to` stdlib` build
+- week 8-9: establish and run compiler tests from` run-test` using option` run-target` for Linux platform
+- week 10: split out foundation build from` swiftsdk` into a separate new build product to be consumed by ` swiftsdk` while taking care of platform specific cmake options
+- week 11: split out xctest and swift testing builds from` swiftsdk` into separate new build products to be consumed by both` cross-compile` product and` wasmswiftsdk` while taking care of platform specific cmake options
+- week 12: finalize documentation
 
