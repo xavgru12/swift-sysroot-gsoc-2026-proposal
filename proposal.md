@@ -61,7 +61,7 @@ End date: August 24
 - week 1: rename` wasmswiftsdk` to `swiftsdk` and add platform selection to constructor
 - week 2: introduce experimental flag passing sysroot to ` swiftsdk`
 - week 3: modify` swiftsdk` to use CMake's toolchain file and possibly more changes before splitting out products
-- week 4: generalize` wasmstdlib` to` stdlib` by adding the possibility for platform specific options
+- week 4: generalize` wasmstdlib` to` stdlib` and make` stdlib` build for wasm use platform specific options
 - week 5: invoke` stdlib` build from swiftsdk (not only cmake install)
 - week 6: documentation for midterm: write a blog post on Swift Forums and start writing documentation in a new file under docs/LinuxCrossCompile.md
 - week 7: add Linux platform to` swiftsdk` and add its platform specific options to` stdlib` build
