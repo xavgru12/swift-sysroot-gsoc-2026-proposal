@@ -58,15 +58,15 @@ Start date: May 25
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-- week 1: Introduce a base class swiftsdk, from which wasmswiftsdk inherits, and move the Wasm-specific options into the derived class
-- week 2: introduce experimental flag passing sysroot to ` swiftsdk`
-- week 3: Introduce a base class stdlib, from which wasmstdlib inherits, and move the Wasm-specific options into the derived class
-- week 4: preparations before introducing new build products 
-- week 5: add linuxswiftsdk which inherits from` swiftsdk` and take care of cmake options
-- week 6: documentation for midterm: write a blog post on Swift Forums and start writing documentation in a new file under docs/LinuxCrossCompile.md
-- week 7: add linuxstdlib which inherits from` stdlib` and take care of cmake options
-- week 8-9: establish and run compiler tests from` run-test` using option` run-target` for Linux platform
-- week 10: split out foundation build from` swiftsdk` into a separate new build product and declare its dependency in ` swiftsdk`
-- week 11: split out xctest and swift testing builds from` swiftsdk` into separate new build products and  declare its dependency in ` swiftsdk`
-- week 12: finalize documentation
+- **Week 1:** Establish a base class ` swiftsdk`, from which ` wasmswiftsdk` will inherit, and relocate the Wasm-specific configuration options into the derived class.  
+- **Week 2:** Introduce an experimental flag to pass ` sysroot` to ` swiftsdk`.  
+- **Week 3:** Define a base class ` stdlib`, from which ` wasmstdlib` will inherit, and move the Wasm-specific configuration options into the derived class.  
+- **Week 4:** Prepare for the introduction of new build products.  
+- **Week 5:** Implement ` linuxswiftsdk` as a subclass of ` swiftsdk` and configure the necessary CMake options.  
+- **Week 6:** Produce midterm documentation: publish a blog post on Swift Forums and begin drafting documentation in ` docs/LinuxCrossCompile.md`.  
+- **Week 7:** Implement ` linuxstdlib` as a subclass of ` stdlib` and configure the necessary CMake options.  
+- **Weeks 8-9:** Establish and execute compiler tests from ` run-test` using the ` run-target` option for the Linux platform.  
+- **Week 10:** Separate the Foundation build from ` swiftsdk` into a dedicated build product and declare its dependency in ` swiftsdk`.  
+- **Week 11:** Separate XCTest and Swift testing builds from ` swiftsdk` into distinct build products and declare their dependencies in ` swiftsdk`.  
+- **Week 12:** Finalize and consolidate all documentation.  
 
