@@ -58,15 +58,16 @@ Start date: May 25
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-- week 1: rename` wasmswiftsdk` to `swiftsdk` and add platform selection to constructor
+- week 1: Introduce a base class swiftsdk, from which wasmswiftsdk inherits, and move the Wasm-specific options into the derived class
 - week 2: introduce experimental flag passing sysroot to ` swiftsdk`
-- week 3: modify` swiftsdk` to use CMake's toolchain file and possibly more changes before splitting out products
-- week 4: generalize` wasmstdlib` to` stdlib` and make` stdlib` build for wasm use platform specific options
-- week 5: invoke` stdlib` build from swiftsdk (not only cmake install)
+- week 4: Introduce a base class stdlib, from which wasmstdlib inherits, and move the Wasm-specific options into the derived class
+- week 3: preparations before introducing new build products 
+- week 7: add linuxswiftsdk which inherits from` swiftsdk` and take care of cmake options
+- week 5: add linuxstdlib which inherits from` stdlib` and take care of cmake options
 - week 6: documentation for midterm: write a blog post on Swift Forums and start writing documentation in a new file under docs/LinuxCrossCompile.md
-- week 7: add Linux platform to` swiftsdk` and add its platform specific options to` stdlib` build
+- week 7: to be filled
 - week 8-9: establish and run compiler tests from` run-test` using option` run-target` for Linux platform
-- week 10: split out foundation build from` swiftsdk` into a separate new build product to be consumed by ` swiftsdk` while taking care of platform specific cmake options
-- week 11: split out xctest and swift testing builds from` swiftsdk` into separate new build products to be consumed by both` cross-compile` product and` wasmswiftsdk` while taking care of platform specific cmake options
+- week 10: split out foundation build from` swiftsdk` into a separate new build product and declare its dependency in ` swiftsdk`
+- week 11: split out xctest and swift testing builds from` swiftsdk` into separate new build products and  declare its dependency in ` swiftsdk`
 - week 12: finalize documentation
 
