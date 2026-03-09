@@ -62,7 +62,7 @@ End date: August 24
 - week 2: introduce experimental flag passing sysroot to ` swiftsdk`
 - week 4: Introduce a base class stdlib, from which wasmstdlib inherits, and move the Wasm-specific options into the derived class
 - week 3: preparations before introducing new build products 
-- week 7: add linuxswiftsdk which inherits from` swiftsdk` and take care of cmake options
+- week 4: add linuxswiftsdk which inherits from` swiftsdk` and take care of cmake options
 - week 5: add linuxstdlib which inherits from` stdlib` and take care of cmake options
 - week 6: documentation for midterm: write a blog post on Swift Forums and start writing documentation in a new file under docs/LinuxCrossCompile.md
 - week 7: to be filled
