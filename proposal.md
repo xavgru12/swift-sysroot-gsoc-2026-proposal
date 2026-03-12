@@ -67,6 +67,6 @@ End date: August 24
 - **Week 7:** Implement the` Libdispatch` build product and the` LinuxLibdispatch` as a platform-specific build product that composes` Libdispatch` and declare its dependencies
 - **Weeks 8-9:** Establish and execute compiler tests from` run-test` using the` run-target` option to run tests with` qemu`. 
 - **Week 10:** Split out the Foundation build from` SwiftSDK` into a dedicated build product and declare its dependencies. 
-- **Week 11:** Split out XCTest and Swift testing builds from` SwiftSDK` into distinct build products and declare their dependencies in` Stdlib`.  
+- **Week 11:** Split out XCTest and Swift testing builds from` SwiftSDK` into distinct build products and declare their dependencies.  
 - **Week 12:** Finalize and consolidate all documentation.  
 
