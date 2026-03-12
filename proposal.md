@@ -62,11 +62,11 @@ End date: August 24
 - **Week 2:** Introduce an experimental flag to pass` sysroot` to` SwiftSDK`.  
 - **Week 3:** Reorganize the` Stdlib` build product and the` WasmStdlib` as a platform-specific build product that composes` Stdlib`.  
 - **Week 4:** Implement the` LinuxSwiftSDK` as a platform-specific class that composes` SwiftSDK`.
-- **Week 5:** Implement the` LinuxStdlib` as a platform-specific build product that composes `Stdlib`, configure the necessary CMake options and declare its dependency in` SwiftSDK`.
+- **Week 5:** Implement the` LinuxStdlib` as a platform-specific build product that composes `Stdlib` and configure the necessary CMake options
 - **Week 6:** Produce midterm documentation: publish a blog post on Swift Forums and begin drafting documentation in` docs/LinuxCrossCompile.md`.  
-- **Week 7:** Implement the` Libdispatch` build product and the` LinuxLibdispatch` as a platform-specific build product that composes` Libdispatch` and declare its dependency in` LinuxStdlib`.
+- **Week 7:** Implement the` Libdispatch` build product and the` LinuxLibdispatch` as a platform-specific build product that composes` Libdispatch` and declare its dependencies
 - **Weeks 8-9:** Establish and execute compiler tests from` run-test` using the` run-target` option to run tests with` qemu`. 
-- **Week 10:** Split out the Foundation build from` SwiftSDK` into a dedicated build product and declare its dependency in` Stdlib`. 
+- **Week 10:** Split out the Foundation build from` SwiftSDK` into a dedicated build product and declare its dependencies. 
 - **Week 11:** Split out XCTest and Swift testing builds from` SwiftSDK` into distinct build products and declare their dependencies in` Stdlib`.  
 - **Week 12:** Finalize and consolidate all documentation.  
 
