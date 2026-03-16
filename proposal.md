@@ -16,16 +16,14 @@ I have been following the Swift project closely, with a particular interest in c
 **Motivation**
 
 The common approach to building Swift for Linux is native compilation, where
-the host and target are identical. Cross-compilation lets the host stay the
-same while using different sysroots for multiple target distributions, enabling
-builds without leaving the host system. This clearly separates the host
-compiler, Swift runtime libraries, and target system interface, improving
-modularity and design. It also allows targeting environments where native
-builds are impractical, such as minimal, constrained, older, or specialized
-distributions. This project builds on existing Wasm cross-compilation
-mechanisms generalizing sysroot support in `build-script`. It enables support
-for more targets and strengthens the extensibility and sustainability of
-Swift’s build infrastructure.
+the host and target are identical.  Cross-compilation enables a single host
+system to build for multiple targets by providing sysroots and generate Swift
+SDKs.  It also allows targeting environments where native builds are
+impractical, such as minimal, constrained, older, or specialized distributions.
+This project builds on existing Wasm cross-compilation mechanisms generalizing
+sysroot support in `build-script`. It enables support for more targets and
+strengthens the extensibility and sustainability of Swift’s build
+infrastructure.
 
 **Description**
 
