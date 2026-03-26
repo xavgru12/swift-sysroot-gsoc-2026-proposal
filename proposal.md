@@ -19,7 +19,7 @@ The common approach to building Swift for Linux is native compilation, where
 the host and target are identical.  Cross-compilation enables a single host
 system to build for multiple targets by providing sysroots and generate Swift
 SDKs.  It also allows targeting environments where native builds are
-impractical, such as minimal, constrained, older, or specialized distributions.
+impractical, such as minimal, constrained, older, or specialized operating systems.
 This project builds on existing Wasm cross-compilation mechanisms generalizing
 sysroot support in `build-script`. It enables support for more targets and
 strengthens the extensibility and sustainability of Swift’s build
