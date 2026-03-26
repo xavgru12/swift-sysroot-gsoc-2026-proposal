@@ -32,7 +32,7 @@ to the sysroot of the target triple used when cross-compiling core libraries
 (not the Swift toolchain). This enables [cross-compilation
 targets](https://github.com/swiftlang/swift-evolution/blob/main/proposals/0387-cross-compilation-destinations.md)
 with other sysroots.
-[Wasm](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasmswiftsdk.py)
+[Wasm](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasiswiftsdk.py)
 already uses a
 [sysroot](https://github.com/swiftlang/swift/blob/main/utils/swift_build_support/swift_build_support/products/wasisysroot.py),
 the approach is to generalize the mechanism by splitting out the Swift core
@@ -63,7 +63,7 @@ Start date: May 25
 Midterm evaluation deadline: July 10  
 End date: August 24  
 
-- **Week 1:** Reorganize the` SwiftSDK` build product and the` WasmSwiftSDK` as a platform-specific build product that composes` SwiftSDK`.
+- **Week 1:** Reorganize the` SwiftSDK` build product and the` WASISwiftSDK` as a platform-specific build product that composes` SwiftSDK`.
 - **Week 2:** Introduce an experimental flag to pass` sysroot` to` SwiftSDK`.  
 - **Week 3:** Reorganize the` Stdlib` build product and the` WasmStdlib` as a platform-specific build product that composes` Stdlib`.  
 - **Week 4:** Implement the` LinuxSwiftSDK` as a platform-specific class that composes` SwiftSDK`.
