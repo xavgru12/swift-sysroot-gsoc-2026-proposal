@@ -15,16 +15,15 @@ I have been following the Swift project closely, with a particular interest in c
 
 **Motivation**
 
-The common approach to building Swift is native compilation, where
- the host and target triple are identical.  Cross-compilation enables a single host
-system to build for multiple targets by providing sysroots and generate Swift
-SDKs.  It also allows targeting environments where native builds are
-impractical, such as minimal, constrained, older, or specialized operating systems.
-This project builds on existing Wasm cross-compilation mechanisms generalizing
-sysroot support in `build-script`. It provides end-to-end support for
-cross-compiling targets and strengthens the extensibility and sustainability of
-Swift’s build infrastructure. It is implemented and validated against a Linux
-distribution as target triple.
+The common approach to building Swift is native compilation, where the host and
+target triple are identical.  Cross-compilation enables a single host system to
+build for multiple targets and generate Swift SDKs. It also allows targeting
+environments where native builds are impractical, such as minimal, constrained,
+older, or specialized operating systems. This project builds on existing Wasm
+cross-compilation mechanisms generalizing sysroot support in `build-script`. It
+provides end-to-end support for cross-compiling targets and strengthens the
+extensibility and sustainability of Swift’s build infrastructure. It is
+implemented and validated against a Linux distribution as target triple.
 
 **Description**
 
