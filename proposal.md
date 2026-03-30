@@ -5,7 +5,7 @@
 Name: Xaver Gruber  
 Email: xaver.max.gruber@gmail.com  
 Github: https://github.com/xavgru12  
-Linkedin: linkedin.com/in/ingenieur-xaver-gruber-639a4b18a  
+Linkedin: http://linkedin.com/in/ingenieur-xaver-gruber-639a4b18a  
 Degree Program: Final year of MSc in Computer Science at IU  
 Job: Embedded Software Engineer  
 Country: Switzerland  
